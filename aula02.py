@@ -45,8 +45,7 @@ b = 3
 print( a==b )
 
 
---------------------------//---------------------"""
-"""segundos = 87426
+segundos = 87426
 dias = segundos // (24 * 3600)
 horas = segundos // 3600
 minutos = (segundos % 3600) // 60
@@ -54,5 +53,13 @@ print(segundos,"segundos equivalem a",dias,"dias, ou", horas, "horas e", minutos
 
 a = 5
 b = 5,5
-print( a!=b )"""
+print( a!=b )
 
+--------------------------//---------------------"""
+
+salario = 2000
+idade = 99
+flag_especial = 1
+
+salario > 1500 and idade > 18
+print((salario > 1500 and idade > 18 and idade <80) or flag_especial==1)
